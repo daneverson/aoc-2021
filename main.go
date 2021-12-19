@@ -12,6 +12,7 @@ type challenge func(string) (string, error)
 var challenges = []challenge{
 	challenge1,
 	challenge2,
+	challenge3,
 }
 
 var (
